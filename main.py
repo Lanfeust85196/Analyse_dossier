@@ -1,6 +1,11 @@
 import os
 import shutil
 
+
+def my_function(a,b):
+    return a+b
+
+
 file = []
 dict_Ext = {"IMAGES": ('.jpg', '.png', '.JPG', '.jpeg'),
             "VIDEO": ('.ogg', '.mp4',),
