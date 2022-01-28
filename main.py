@@ -10,11 +10,11 @@ dict_Ext = {"IMAGES": ('.jpg', '.png', '.JPG', '.jpeg'),
 
 for el in dict_Ext:
     #Création de l'arborescence à partir des clés avec suppression si existe déjà
-    ##Test History
+    ##Test History - Autre test
     if os.path.exists(f"c:\\temp\\CLE BM\\{el}"):
         os.rmdir(f"c:\\temp\\CLE BM\\{el}")
         os.makedirs(f"c:\\temp\\CLE BM\\{el}")
-    else :
+    else:
         os.makedirs(f"c:\\temp\\CLE BM\\{el}")
     print(el)
     #Recherche des fichiers correspondants à la clé
